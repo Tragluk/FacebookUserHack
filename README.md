@@ -1,5 +1,5 @@
 # FacebookUserHack
-Python version based on a joke
+Python version based on a joke, used cxFreeze for convert to .exe
 
 We get a few people every once in a while who are looking to learn 'hacking' as if it's some mystical art that is taught.
 Sooo..  now we have a 'hack' we can give them.
