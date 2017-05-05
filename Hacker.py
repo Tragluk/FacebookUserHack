@@ -7,7 +7,9 @@ def loading(fill):
     percent = int(fill/100 * 39)
     print('Hashing Username CheckSUM...  Please Wait')
     print(' ---------------------------------------')
-    print(' ', '*' * percent, ' ' * (39-percent), '=   ',int(fill))
+    print(' ', end="")
+    print('*'*percent, end="")
+    print(' '*(39-percent), '=   ',int(fill))
     print(' ---------------------------------------')
     time.sleep(2)
 
@@ -57,6 +59,8 @@ def skullsigprint():
 
 
 def main():
+    os.system('color A')
+    os.system('title FBHack by STP')
     os.system('cls')
     skullsigprint()
     key = input('Enter Facebook Username:')
