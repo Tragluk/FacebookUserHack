@@ -7,9 +7,7 @@ def loading(fill):
     percent = int(fill/100 * 39)
     print('Hashing Username CheckSUM...  Please Wait')
     print(' ---------------------------------------')
-    print(' ', end="")
-    print('*'*percent, end="")
-    print(' '*(39-percent), '=   ',int(fill))
+    print(' ', '*' * percent, ' ' * (39-percent), '=   ',int(fill))
     print(' ---------------------------------------')
     time.sleep(2)
 
